@@ -16,6 +16,7 @@ before_script:
   - sleep 5
 
 script:
+  - docker pull epiclabs/e2e-test-runner
   - docker exec -ti epiclabs/e2e-test-runner -c "./node_modules/.bin/protractor protractor.conf.js"
 
 
