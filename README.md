@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jaffamonkey/docker-cucumber-protractor-chrome.svg?branch=master)](https://travis-ci.org/jaffamonkey/docker-cucumber-protractor-chrome)
+
 # Epiclabs Gherkin Test Runner
 Docker image to run cucumber - gherkin protractor tests using selenium and headless chrome
 
