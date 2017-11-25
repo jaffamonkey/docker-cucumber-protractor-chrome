@@ -17,7 +17,8 @@ before_script:
 
 script:
   - docker run -it --volume /example:/tests epiclabs/e2e-test-runner  --baseUrl http://google.com/ --specs ./example/features/google.feature
+  - sleep 120
 
 notifications:
   email:
-    - paullittlebury@gmail.com
+  - paullittlebury@gmail.com
