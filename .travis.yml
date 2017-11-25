@@ -19,7 +19,7 @@ script:
   - docker pull epiclabs/e2e-test-runner
   - pwd
   - sleep 120
-  - docker run -it --volume /home/travis/build/jaffamonkey/docker-cucumber-protractor-chrome/example:/tests epiclabs/e2e-test-runner --baseUrl http://google.com --specs ./features/google.feature
+  - docker run -it --volume /home/travis/build/jaffamonkey/docker-cucumber-protractor-chrome/example:/tests epiclabs/e2e-test-runner --baseUrl http://google.com --specs ./tests/features/google.feature
 
 notifications:
   email:
