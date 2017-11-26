@@ -47,7 +47,7 @@ WORKDIR /src
 
 RUN npm install -g dateformat request && \
 	npm install && \
-    node_modules/webdriver-manager/bin/webdriver-manager update \
+    node_modules/webdriver-manager/bin/webdriver-manager update --versions.chrome=2.33 \
     set -xe \
     && curl -fsSL https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
     && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list \
