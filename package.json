@@ -8,7 +8,7 @@
     "cucumber": "^2.3.1",
     "protractor": "^5.1.2",
     "protractor-cucumber-framework": "^3.1.2",
-    "webdriver-manager": "^12.0.6"
+    "webdriver-manager": "latest"
   },
   "devDependencies": {},
   "repository": {
